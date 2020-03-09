@@ -10,7 +10,7 @@ public:
     Person(char * firstName, char * lastName, int age);
     Person(const Person & person);
     Person();
-    virtual ~Person();
+    ~Person();
     void display();
 };
 

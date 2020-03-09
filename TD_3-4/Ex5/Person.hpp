@@ -12,6 +12,9 @@ public:
     Person();
     ~Person();
     void display();
+    void affiche() const;
 };
+
+// void affiche(const int& n);
 
 #endif PERSON_H
